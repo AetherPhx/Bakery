@@ -14,3 +14,6 @@ Proyecto Final de:
 
 
 susan sharmely anampa valdez
+Mis Datos:
+
+Víctor Jesús Trigos Alvarado
