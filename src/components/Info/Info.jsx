@@ -3,7 +3,7 @@ import "./Info.css";
 export function Info(){
     return(
         <section class="Info">
-          <div class="Info-content">
+          <div class="Info-content contenedor">
               <div class="Info-content-text">
                   <h2>Discover</h2>
                   <h3>our story</h3>
@@ -12,15 +12,10 @@ export function Info(){
               </div>
               <div class="Info-content-img">
                   <div class="Info-content-img_uno">
-                   <img src="/src/asest/img/story-img.jpg" alt="imagen"/>
-
+                   <img src="story-img.jpg" alt="imagen"/>
                   </div>
-
               </div>
-             
-
           </div>
-          
-    </section>
+        </section>
     )
 }

@@ -28,6 +28,11 @@ body{
 img{
     width: 100%;
 }
+
+.contenedor{
+    max-width: 1200px;
+    margin: auto;
+}
 .Info{
     background-color: #fff;
     
@@ -37,13 +42,14 @@ img{
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     height: 450px;
-    padding: 30px;
+    padding: 30px 60px;
   
 }
 .Info-content-text{
    
     text-align: center;
-    padding: 40px;
+    margin-top: 50px;
+   
  
 }
 .Info-content-text h2{
@@ -83,4 +89,5 @@ img{
     height: 380px;
     padding: 25px;
 }
+
 
