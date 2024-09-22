@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&family=Poiret+One&family=Source+Sans+Pro:wght@700&display=swap');
+
+:root {
+    /* * Fonts */
+    --body-font: 'Cabin', sans-serif;
+    --main-font: 'Source Sans Pro', sans-serif;
+    --headings-font: 'Herr Von Muellerhoff', cursive;
+    --secondary-font: 'Poiret One', cursive;
+
+
+    /* * Colors */
+    --dark-bg: #121212;
+    --body-font-color: #515151;
+    --main-font-color-dark: #252525;
+    --secondary-font-color: #e1b164;
+    --white-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--dark-bg);
+    color: var(--body-font-color);
+}
