@@ -1,6 +1,12 @@
-function App() {
+import { Info } from "./components/Info/Info"
+
+
+export function App() {
   return (
-    <p>This is App!</p>
+    <div className="layout">
+      <Info/>
+
+    </div>
   )
 }
 
