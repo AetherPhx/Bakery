@@ -1,11 +1,12 @@
-import { Header } from "./Components/Header/Header"
+import { Banner } from './components/Banner';
+import { Header } from "./Components/Header/Header";
 
 export function App() {
   return (
     <div className="layout">
       <Header />
+      <Banner />
     </div>
   )
-}
+};
 
-export default App
