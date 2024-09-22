@@ -1,21 +1,40 @@
-.Header-wrapper {
+.Header {
+    width: 100%;
+    height: 800px;
     background-image: url("hero-bg.jpg");
-    background-position: center;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
-.Header {
-    height: 500px;
+.Header-content {
+    color: #fff;
+    height: 100%;
     max-width: 1200px;
+    padding-top: 12px;
     margin-inline: auto;
 
-    color: #fff;
+    position: relative;
 }
 
 .Header-menu {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+
+    position: absolute;
+    top: 0;
+}
+
+.Header-logo {
+    font-family: var(--main-font);
+    font-size: 2rem;
+    transition: color 0.5s ease;
+}
+
+.Header-logo:hover {
+    color: var(--secondary-font-color);
+    cursor: pointer;
 }
 
 .Header-cta {
@@ -24,14 +43,30 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    padding: 16px;
+    gap: 24px;
 }
 
 .Header-title {
+    font-family: var(--secondary-font);
     font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .Header-btn {
+    background-color: var(--secondary-font-color);
+    color: var(--white-color);
     width: fit-content;
+    padding: 14px 24px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    transition: background-color, color 0.5s ease;
+}
+
+.Header-btn:hover {
+    background-color: var(--white-color);
+    color: var(--secondary-font-color);
 }
