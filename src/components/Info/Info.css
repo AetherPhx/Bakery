@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&family=Poiret+One&family=Source+Sans+Pro:wght@700&display=swap');
+
+:root {
+	--main-font: 'Source Sans Pro', sans-serif;
+	--secondary-font: 'Poiret One', cursive;
+	--body-font: 'Cabin', sans-serif;
+	--headings-font: 'Herr Von Muellerhoff', cursive;
+	--main-font-color-dark: #252525;
+	--secondary-font-color: #e1b164;
+	--body-font-color: #515151;
+	--white-color: #fff;
+	--dark-bg: #121212;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+}
+.info{
+    background-color: #fff;
+    
+}
+.info__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    height: 400px;
+  
+}
+.info__content__text{
+   
+    text-align: center;
+    padding: 40px;
+ 
+}
+.info__content__text h2{
+    color: #e1b164;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 66px;
+    font-weight: 500;
+}
+
+.info__content__text a{
+    color: #e1b164;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    padding-top: 30px;
+    letter-spacing: 2px;
+
+}
+
+.info__content__text h3{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: -28px;
+
+}
+.info__content__parrafo{
+    
+    padding: 20px;
+    line-height: 1.6em;
+}
+
+.info__content__img{
+    width: 340px;
+    height: 340px;
+    padding: 25px;
+}
+

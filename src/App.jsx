@@ -5,8 +5,13 @@ export function App() {
   return (
     <div className="layout">
       <Header />
+     
+      <Info/>
+
+   
       <Banner />
     </div>
+   
   )
 };
 
