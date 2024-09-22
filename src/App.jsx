@@ -1,9 +1,9 @@
-function App() {
+import { Banner } from './components/Banner';
+
+export const App = () => {
   return (
-
-    <p>This is App!</p>
-
+    <section>
+      <Banner />
+    </section >
   )
-}
-
-export default App
+};
