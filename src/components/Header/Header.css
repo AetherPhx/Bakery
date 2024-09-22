@@ -1,11 +1,14 @@
-.Header {
+.Header-wrapper {
     background-image: url("hero-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
 
-    width: 100%;
+.Header {
     height: 500px;
+    max-width: 1200px;
+    margin-inline: auto;
 
     color: #fff;
 }
