@@ -1,9 +1,12 @@
 import { Banner } from './components/Banner';
+import { Header } from "./Components/Header/Header";
 
-export const App = () => {
+export function App() {
   return (
-    <section>
+    <div className="layout">
+      <Header />
       <Banner />
-    </section >
+    </div>
   )
 };
+
