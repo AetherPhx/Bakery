@@ -10,5 +10,7 @@
 
 .NavMenu-link {
     color: #fff;
+    font-family: var(--main-font);
     text-decoration: none;
+    text-transform: uppercase;
 }
