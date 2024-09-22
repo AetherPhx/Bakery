@@ -1,0 +1,14 @@
+.NavMenu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    gap: 20px;
+
+    list-style: none;
+}
+
+.NavMenu-link {
+    color: #fff;
+    text-decoration: none;
+}

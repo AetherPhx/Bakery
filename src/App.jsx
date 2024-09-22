@@ -1,6 +1,10 @@
-function App() {
+import { Header } from "./Components/Header/Header"
+
+export function App() {
   return (
-    <p>This is App!</p>
+    <div className="layout">
+      <Header />
+    </div>
   )
 }
 
