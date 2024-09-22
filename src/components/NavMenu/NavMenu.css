@@ -13,4 +13,9 @@
     font-family: var(--main-font);
     text-decoration: none;
     text-transform: uppercase;
+    transition: color 0.5s ease;
+}
+
+.NavMenu-link:hover {
+    color: var(--secondary-font-color);
 }
