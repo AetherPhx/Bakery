@@ -28,11 +28,11 @@ body{
 img{
     width: 100%;
 }
-.info{
+.Info{
     background-color: #fff;
     
 }
-.info-content{
+.Info-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
@@ -40,20 +40,20 @@ img{
     padding: 30px;
   
 }
-.info-content-text{
+.Info-content-text{
    
     text-align: center;
     padding: 40px;
  
 }
-.info-content-text h2{
+.Info-content-text h2{
     color: #e1b164;
     font-family: 'Herr Von Muellerhoff', cursive;
     font-size: 110px;
     font-weight: 500;
 }
 
-.info-content-text a{
+.Info-content-text a{
     color: #e1b164;
     font-family: 'Cabin', sans-serif;
     text-transform: uppercase;
@@ -63,7 +63,7 @@ img{
 
 }
 
-.info-content-text h3{
+.Info-content-text h3{
     text-transform: uppercase;
     letter-spacing: 7px;
     margin-top: -48px;
@@ -71,14 +71,14 @@ img{
     font-size: 32px;
 
 }
-.info-content-parrafo{
+.Info-content-parrafo{
     
     padding: 22px;
     line-height: 1.6em;
     color:  #121212;
 }
 
-.info-content-img{
+.Info-content-img{
     width: 380px;
     height: 380px;
     padding: 25px;
