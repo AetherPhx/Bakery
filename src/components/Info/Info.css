@@ -28,54 +28,66 @@ body{
 img{
     width: 100%;
 }
-.info{
+
+.contenedor{
+    max-width: 1200px;
+    margin: auto;
+}
+.Info{
     background-color: #fff;
     
 }
-.info__content{
+.Info-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    height: 400px;
+    height: 450px;
+    padding: 30px 60px;
   
 }
-.info__content__text{
+.Info-content-text{
    
     text-align: center;
-    padding: 40px;
+    margin-top: 50px;
+   
  
 }
-.info__content__text h2{
+.Info-content-text h2{
     color: #e1b164;
     font-family: 'Herr Von Muellerhoff', cursive;
-    font-size: 66px;
+    font-size: 110px;
     font-weight: 500;
 }
 
-.info__content__text a{
+.Info-content-text a{
     color: #e1b164;
     font-family: 'Cabin', sans-serif;
     text-transform: uppercase;
     padding-top: 30px;
     letter-spacing: 2px;
+    font-weight: 700;
 
 }
 
-.info__content__text h3{
+.Info-content-text h3{
     text-transform: uppercase;
-    letter-spacing: 4px;
-    margin-top: -28px;
+    letter-spacing: 7px;
+    margin-top: -48px;
+    color: #121212;
+    font-size: 32px;
 
 }
-.info__content__parrafo{
+.Info-content-parrafo{
     
-    padding: 20px;
+    padding: 22px;
     line-height: 1.6em;
+    color:  #121212;
 }
 
-.info__content__img{
-    width: 340px;
-    height: 340px;
+.Info-content-img{
+    width: 380px;
+    height: 380px;
     padding: 25px;
 }
+
 

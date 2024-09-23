@@ -1,0 +1,1 @@
+export {InfoThree} from "./InfoThree.jsx"
