@@ -1,22 +1,21 @@
 import { Header } from "./components/Header";
 import { Info } from "./components/Info";
-import { InfoTwo } from "./components/InfoTwo/InfoTwo";
-import { InfoThree } from "./components/InfoThree/InfoThree";
 import { Banner } from "./components/Banner";
 import { Footer } from "./components/Footer";
 
 export function App() {
+	const urlBanner1 = "/tasteful-recipes.jpg";
+	const urlBanner2 = "/tasty.jpg";
 	return (
 		<div className="layout">
 			<Header />
 			<Info title="Discover" subtitle="our story" contentText=" Lorem ipsum dolor sit amet consectetur adipisicIng elit. Numquam voluptatum magnam temporibus dolorum, fuga commodi." link="learn more"/>
-			<Banner />
-			
-			<InfoTwo title="Explore" subtitle="Menu" contentText=" Lorem ipsum dolor sit amet consectetur adipisicIng elit. Numquam voluptatum magnam temporibus dolorum, fuga commodi." link="see full menu"/>
-			<Banner />
-			
-			<InfoThree title="Baker's" subtitle="Delight" contentText=" Lorem ipsum dolor sit amet consectetur adipisicIng elit. Numquam voluptatum magnam temporibus dolorum, fuga commodi." link="make reservation"/>
+			<Banner bannerTitle='Always' bannerSubtitle='FRESH' backgroundImage={urlBanner1}/>
+			<Info title="Explore" subtitle="Menu" contentText=" Lorem ipsum dolor sit amet consectetur adipisicIng elit. Numquam voluptatum magnam temporibus dolorum, fuga commodi." link="see full menu"/>
+			<Banner bannerTitle='Everything' bannerSubtitle='TASTY' backgroundImage={urlBanner2}/>
+			<Info title="Baker's" subtitle="Delight" contentText=" Lorem ipsum dolor sit amet consectetur adipisicIng elit. Numquam voluptatum magnam temporibus dolorum, fuga commodi." link="make reservation" />
 			<Footer />
 		</div>
 	);
 }
+
