@@ -25,3 +25,33 @@
     display: flex;
     gap: 16px;
 }
+
+form {
+    padding: 20px;
+}
+
+input[type="text"],
+textarea {
+    font-family: var(--body-font);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--body-font-color);
+    color: var(--white-color);
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary-font-color);
+}
+
