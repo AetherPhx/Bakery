@@ -9,13 +9,13 @@ export function App() {
 	return (
 		<div className="layout">
 			<Header />
-			<Info />
+			<Info title="Discover" subtitle="our story" contentText=" Lorem ipsum dolor sit amet consectetur adipisicIng elit. Numquam voluptatum magnam temporibus dolorum, fuga commodi." link="learn more"/>
 			<Banner />
-			<Info />
-			<InfoTwo />
+			
+			<InfoTwo title="Explore" subtitle="Menu" contentText=" Lorem ipsum dolor sit amet consectetur adipisicIng elit. Numquam voluptatum magnam temporibus dolorum, fuga commodi." link="see full menu"/>
 			<Banner />
-			<Info />
-			<InfoThree />
+			
+			<InfoThree title="Baker's" subtitle="Delight" contentText=" Lorem ipsum dolor sit amet consectetur adipisicIng elit. Numquam voluptatum magnam temporibus dolorum, fuga commodi." link="make reservation"/>
 			<Footer />
 		</div>
 	);

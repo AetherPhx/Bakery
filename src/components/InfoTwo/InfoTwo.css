@@ -1,5 +1,7 @@
+
+
 .Info-content-img-cuatro{
-    height: 350px;
+ 
     width: 500px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -7,4 +9,3 @@
     padding: 20px;
     
 }
-

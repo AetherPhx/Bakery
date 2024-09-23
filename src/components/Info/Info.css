@@ -71,7 +71,7 @@ img{
 
 .Info-content-text h3{
     text-transform: uppercase;
-    letter-spacing: 7px;
+    letter-spacing: 6px;
     margin-top: -48px;
     color: #121212;
     font-size: 32px;
@@ -85,9 +85,8 @@ img{
 }
 
 .Info-content-img{
-    width: 500px;
-    height: 380px;
+    width: 600px;
+    height: 600px;
     padding: 25px;
 }
-
 

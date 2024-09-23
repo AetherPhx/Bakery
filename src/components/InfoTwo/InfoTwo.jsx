@@ -1,6 +1,6 @@
 import "./InfoTwo.css";
 
-export function InfoTwo(){
+export function InfoTwo({title,subtitle,contentText,link}){
     return(
         <section class="Info">
           <div class="Info-content contenedor">
@@ -15,10 +15,10 @@ export function InfoTwo(){
                 </div>
 
                 <div class="Info-content-text">
-                  <h2>Explore</h2>
-                  <h3>Menu</h3>
-                  <p  class="Info-content-parrafo"> Lorem ipsum dolor sit amet consectetur adipisicIng elit. Numquam voluptatum magnam temporibus dolorum, fuga commodi.</p>
-                  <a href="#">see full menu</a>
+                  <h2>{title}</h2>
+                  <h3>{subtitle}</h3>
+                  <p  class="Info-content-parrafo"> {contentText}</p>
+                  <a href="#">{link}</a>
               </div>
           </div>
           
