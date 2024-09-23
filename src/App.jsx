@@ -1,6 +1,8 @@
 import { Header } from "./components/Header";
 import { Info } from "./components/Info";
 import { Banner } from "./components/Banner";
+import { InfoTwo } from "./components/InfoTwo/InfoTwo";
+import {InfoThree} from "./components/InfoThree/InfoThree";
 
 export function App() {
 	return (
@@ -8,9 +10,9 @@ export function App() {
 			<Header />
 			<Info />
 			<Banner />
-			<Info />
+			<InfoTwo />
 			<Banner />
-			<Info />
+			<InfoThree/>
 			{/* TODO: Add Footer */}
 		</div>
 	);
