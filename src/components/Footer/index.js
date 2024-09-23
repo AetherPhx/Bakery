@@ -1,1 +1,1 @@
-export { Footer } from "./Footer.jsx";
+export * from "./Footer.jsx";
