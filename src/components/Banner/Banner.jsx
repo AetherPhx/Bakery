@@ -1,4 +1,4 @@
-import './Banner.css';
+import "./Banner.css";
 
 export const Banner = () => {
   return (
