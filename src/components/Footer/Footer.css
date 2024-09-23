@@ -1,0 +1,52 @@
+.Footer-container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer-container {
+    width: 1440px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.Footer-title {
+    padding-top: 70px;    
+    font-family: var(--main-font);
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 8px;
+}
+
+form {
+    padding: 20px;
+}
+
+input[type="text"],
+textarea {
+    font-family: var(--body-font);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--body-font-color);
+    color: var(--white-color);
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary-font-color);
+}
