@@ -7,3 +7,4 @@ export const Banner = () => {
         <p className='Banner-subtitle'>FRESH</p>
       </div>
   )
+};

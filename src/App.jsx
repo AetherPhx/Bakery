@@ -3,7 +3,7 @@ import { Info } from "./components/Info";
 import { InfoTwo } from "./components/InfoTwo/InfoTwo";
 import {InfoThree} from "./components/InfoThree/InfoThree";
 import { Banner } from "./components/Banner";
-import { Footer } from "./components/Footer/";
+import { Footer } from "./components/Footer";
 
 export function App() {
 	return (
