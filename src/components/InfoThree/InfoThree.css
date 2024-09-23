@@ -1,0 +1,15 @@
+
+
+
+.Info-content-img-dos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 100%;
+    
+}
+.Info-content-img-dos img{
+    
+    object-fit: cover;
+    height: 100%;
+}
