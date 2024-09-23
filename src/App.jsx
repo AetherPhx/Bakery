@@ -1,9 +1,9 @@
 import { Header } from "./components/Header";
 import { Info } from "./components/Info";
 import { InfoTwo } from "./components/InfoTwo/InfoTwo";
-import {InfoThree} from "./components/InfoThree/InfoThree";
+import { InfoThree } from "./components/InfoThree/InfoThree";
 import { Banner } from "./components/Banner";
-import { Footer } from "./components/Footer/";
+import { Footer } from "./components/Footer";
 
 export function App() {
 	return (
@@ -11,9 +11,11 @@ export function App() {
 			<Header />
 			<Info />
 			<Banner />
+			<Info />
 			<InfoTwo />
 			<Banner />
-			<InfoThree/>
+			<Info />
+			<InfoThree />
 			<Footer />
 		</div>
 	);

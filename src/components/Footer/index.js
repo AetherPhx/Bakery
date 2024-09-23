@@ -1,1 +1,1 @@
-export * from "./Footer.jsx";
+export * from "./Footer";

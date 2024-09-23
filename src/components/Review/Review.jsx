@@ -1,6 +1,6 @@
 import "./Review.css";
 
-export const Review = () => {
+export const Review = ({ name, review }) => {
 	return (
 		<article className="Review">
 			<header className="Review-header">
@@ -13,13 +13,11 @@ export const Review = () => {
 			</header>
 
 			<main className="Review-content">
-				<p className="Review-text">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque velit
-				</p>
+				<p className="Review-text">{review}</p>
 			</main>
 
 			<footer className="Review-footer">
-				<p className="Review-author">Name Surname</p>
+				<p className="Review-author">{name}</p>
 			</footer>
 		</article>
 	);

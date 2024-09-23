@@ -9,6 +9,7 @@
 
     display: grid;
     gap: 32px;
+    color: var(--white-color);
 }
 
 .Footer-title {
@@ -54,4 +55,3 @@ button {
 button:hover {
     background-color: var(--secondary-font-color);
 }
-
