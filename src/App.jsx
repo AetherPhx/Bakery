@@ -6,17 +6,20 @@ import { Banner } from "./components/Banner";
 import { Footer } from "./components/Footer";
 
 export function App() {
+	const urlBanner1 = "/tasteful-recipes.jpg";
+	const urlBanner2 = "/tasty.jpg";
 	return (
 		<div className="layout">
 			<Header />
 			<Info />
-			<Banner />
+			<Banner bannerTitle='Always' bannerSubtitle='FRESH' backgroundImage={urlBanner1}/>
 			<Info />
 			<InfoTwo />
-			<Banner />
+			<Banner bannerTitle='Everything' bannerSubtitle='TASTY' backgroundImage={urlBanner2}/>
 			<Info />
 			<InfoThree />
 			<Footer />
 		</div>
 	);
 }
+

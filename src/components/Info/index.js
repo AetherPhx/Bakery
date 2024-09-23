@@ -1,2 +1,1 @@
-
-export { Info} from "./Info.jsx"
+export { Info } from "./Info.jsx";
