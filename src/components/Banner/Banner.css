@@ -1,7 +1,8 @@
 .Banner-container {
     width: 100%;
     height: 424px;
-    background-image: url("tasteful-recipes.jpg");
+    /* background-image: url("tasteful-recipes.jpg"); */
+    background-image: var(--background-image);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
