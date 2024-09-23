@@ -1,14 +1,14 @@
 import "./Info.css";
 
-export function Info(){
+export function Info({title,subtitle,contentText,link}){
     return(
         <section class="Info">
           <div class="Info-content contenedor">
               <div class="Info-content-text">
-                  <h2>Discover</h2>
-                  <h3>our story</h3>
-                  <p  class="Info-content-parrafo"> Lorem ipsum dolor sit amet consectetur adipisicIng elit. Numquam voluptatum magnam temporibus dolorum, fuga commodi.</p>
-                  <a href="#">Lear more</a>
+                  <h2>{title}</h2>
+                  <h3>{subtitle}</h3>
+                  <p  class="Info-content-parrafo"> {contentText}</p>
+                  <a href="#">{link}</a>
               </div>
               <div class="Info-content-img">
                   <div class="Info-content-img_uno">
