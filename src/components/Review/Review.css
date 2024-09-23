@@ -1,0 +1,33 @@
+.Review {
+    padding: 8px;
+    border: 1px solid var(--white-color);
+    border-radius: 8px;
+
+    display: grid;
+    gap: 16px;
+}
+
+.Review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Review-rating {
+    width: 100px;
+}
+
+.Review-close {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Review-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Review-author {
+    font-size: 14px;
+}

@@ -1,8 +1,9 @@
 import { Header } from "./components/Header";
 import { Info } from "./components/Info";
-import { Banner } from "./components/Banner";
 import { InfoTwo } from "./components/InfoTwo/InfoTwo";
 import {InfoThree} from "./components/InfoThree/InfoThree";
+import { Banner } from "./components/Banner";
+import { Footer } from "./components/Footer/";
 
 export function App() {
 	return (
@@ -13,7 +14,7 @@ export function App() {
 			<InfoTwo />
 			<Banner />
 			<InfoThree/>
-			{/* TODO: Add Footer */}
+			<Footer />
 		</div>
 	);
 }

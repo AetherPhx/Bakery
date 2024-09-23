@@ -1,0 +1,27 @@
+.Footer {
+    background-color: var(--dark-bg);
+}
+
+.Footer-content {
+    width: 1200px;
+    padding-top: 100px;
+    margin-inline: auto;
+
+    display: grid;
+    gap: 32px;
+}
+
+.Footer-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Footer-main {
+    display: flex;
+    gap: 16px;
+}
+
+.Footer-reviews {
+    display: flex;
+    gap: 16px;
+}
